@@ -1,1 +1,57 @@
+.parent{
+    border: 1px solid;
+    height: 360px;
+    width: 300px; 
+    margin-left: 500px;
+    margin-top: 165px;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-end;
+}
+.tank{
+    background-color: lightblue;
+    height: 360px;
+    width: 300px;
+}
+.pipe{
+    background-color: brown;
+    border: 1px solid;
+    height: 20px;
+    width: 200px;
+    margin-left: 801px;
+    position:absolute;
+    top: 500px;
+    bottom: 200px;
+}
+.whole{
+    display: flex;
+    flex-direction: column;
+}
+.nextpipe{
+    background-color: black;
+    border: 1px solid;
+    width: 20px;
+    height: 70px; 
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    margin-left: 980px;
+    position: absolute;
+    top: 450px;  
+    align-items: center;   
+}
+.water{
+    display: none;
+    background-color: lightblue;
+    height: 200px;
+    width: 20px;
+    margin-bottom: 30px;
+}
+.tap{
+    background-color: aqua;
+}
+
+    
+   
 
